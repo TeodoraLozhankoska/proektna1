@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Проектна</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topnav">
+        <a href="home.html">За мене</a>
+        <a href="interesi.html" >Интереси</a>
+        <a href="blogg.html" >Блог</a>
+        <a href="kontakt.html" >Контакт</a>
+        <a class="active" href="anketa.html" >Анкета</a>
+      </div> 
+
+      <div class="container pad" style="text-align:center; border-radius:1em; background-color:rgb(245, 136, 136); margin-top: 3%;">
+        <label for="ocenka" value="ocenka">Како би ја оцениле оваа страна?</label><br>
+        <select name="cars" id="cars">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+        </select><br><br>
+        <label for="povtorno" value="povtorno">Дали би ја посетиле повторно?</label><br>
+        <input type="radio" id="da" name="da" value="da">
+        <label for="da">Да!</label>
+        <input type="radio" id="ne" name="ne" value="ne">
+        <label for="ne">Не.</label><br><br>
+
+        <label for="dodadi" value="dodadi">Што би промениле?</label><br>
+        <input type="text" id="dodadi" class="st"><br><br>
+
+        <input type="button" onclick="isprati()" style="padding=10px; background-color: black; color: white;" value="Испрати">
+    </div> 
+</body>
+</html>

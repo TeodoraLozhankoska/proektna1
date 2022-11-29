@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Проектна</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topnav">
+        <a href="home.html">За мене</a>
+        <a href="interesi.html" >Интереси</a>
+        <a href="blogg.html" >Блог</a>
+        <a class="active" href="kontakt.html" >Контакт</a>
+        <a href="anketa.html" >Анкета</a>
+      </div>
+      <div class="container pad" style="border-radius:1em; background-color:rgb(245, 136, 136); margin-top: 3%;">
+        <label for="name" value="name">Име:</label><br>
+        <input type="text" id="name" class="st"><br><br>
+        <label for="sname" value="sname">Презиме:</label><br>
+        <input type="text" id="sname" class="st"><br><br>
+        <label for="mail" value="mail">Емаил:
+        </label><br>
+        <input type="text" id="mail" class="st"><br><br>
+        <input type="button" onclick="isprati()" style="padding=10px; background-color: black; color: white;" value="Испрати">
+    </div> 
+</body>
+</html>
